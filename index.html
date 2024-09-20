@@ -225,7 +225,7 @@
 
 					<div class="border-b-2 border-dashed  my-4"></div>
 
-					<div class="flex items-center gap-2 border-y-2 py-2 my-2 border-dashed text-lg font-semibold justify-between ">
+					<div id="show-coupon-price" class="flex items-center gap-2 border-y-2 py-2 my-2 border-dashed text-lg font-semibold justify-between ">
 						<input id="coupon-field" disabled class="input my-5 w-full input-primary border-primary" type="text" name="" id="" placeholder="have a coupon?">
 						<button id="coupon-btn" disabled class="btn btn-primary">Apply</button>
 					</div>
@@ -254,7 +254,7 @@
 						<div class="label">
 						  <span class="label-text font-bold text-base">Phone number</span>
 						</div>
-						<input type="text" placeholder="enter Phone number" class="input input-bordered w-full" />
+						<input id="phone-number" type="text" placeholder="enter Phone number" class="input input-bordered w-full" />
 					  </label>
 
 					<label class="form-control w-full my-3">
@@ -264,7 +264,7 @@
 						<input type="text" placeholder="enter email address" class="input input-bordered w-full" />
 					  </label>
 
-					  <button disabled class="btn bg-primary text-lg mt-5 text-white uppercase w-full ">Next</button>
+					  <button id="next-btn" disabled class="btn bg-primary text-lg mt-5 text-white uppercase w-full ">Next</button>
 
 					  <!-- Open the modal using ID.showModal() method -->
 					<button class="btn" onclick="my_modal_1.showModal()">open modal</button>
@@ -275,7 +275,7 @@
 						<div class="modal-action">
 						<form method="dialog">
 							<!-- if there is a button in form, it will close the modal -->
-							<button class="btn">Close</button>
+							<button id="btn-continue" class="btn">Continue</button>
 						</form>
 						</div>
 					</div>
